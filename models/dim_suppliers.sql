@@ -1,0 +1,3 @@
+SELECT supplier_id, company_name as name FROM FIVETRAN_DATABASE. 
+POSTGRES_NORTHWINDS_RDS_PUBLIC.suppliers
+LIMIT 500;
