@@ -36,3 +36,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 #     # Applies to all files under models/example/
 #     example:
 #       materialized: view
+
+packages:
+  - package: dbt-labs/dbt_utils   
+    version: 0.8.0
